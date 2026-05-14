@@ -26,3 +26,4 @@ and license terms above remain intact and apply to this fork.
 Fork notes:
 - Exploring once semantics for use in a small CLI tool project
 - No functional changes to the library; studying the implementation only
+- Added notes in source comments to aid personal understanding of sync.Once internals
