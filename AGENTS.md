@@ -66,9 +66,9 @@ go test -v -run TestName ./internal/...
 - Always follow idiomatic Go style
 - Don't use excessive comments. Try to make the code speak for itself; only resort to adding comments where the meaning or intention may otherwise be unclear, or a subtle detail may be missed.
 - Organize imports in sections: stdlib imports, 3rd-party imports, and project imports. Each section should be sorted alphabetically, and the sections should be separated from each other by 1 blank line.
-- Where a struct type has both public and private methods, arrange the public methods first, then add a blank line separator, then the private methods.
+- Where a struct type has both public and private methods, arrange the public methods first, then add a blank line separator before the private methods.
 
 ## Personal Notes
 
 - I'm using this fork primarily to learn how kamal-proxy integration works.
-- Tested on Ubuntu 24.04 with Docker 26.x — works well for single-app setups.
+- Test against a local Hetzner VPS (CX22) running Ubuntu 24.04.
